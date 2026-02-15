@@ -1,0 +1,18 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+header nav{
+display: flex;
+gap: 20vh;
+
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
