@@ -1,18 +1,108 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
+    overflow-x: hidden;
 }
 
-header{
+header {
     background-color: rgb(255, 255, 255);
     display: flex;
+    padding: -1vh;
 }
-header nav{
-display: flex;
-gap: 20vh;
+
+header nav {
+    margin-left: 22vh;
+    display: flex;
+    gap: 15vh;
+    align-items: center;
+}
+
+header img {
+    width: 45vh;
+    margin-left: 6vh;
+    height: auto;
 
 }
-header nav a{
+
+header nav a {
     text-decoration: none;
     color: black;
+    font-size: 3vh;
+}
+
+.colonia{
+    width: 209vh;
+    height: 85.3vh;
+    filter: blur(10px);
+}
+
+.saida-wrapper {
+    position: absolute;
+    margin-left: 150vh;
+    width: 70vh;
+    border-radius: 20px;
+    overflow: hidden;
+
+    z-index: 2;
+}
+.saida {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* imagem normal */
+.saida.normal {
+    z-index: 1;
+}
+
+/* imagem com blur parcial */
+.saida.blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    filter: blur(10px);
+
+    /* blur só embaixo */
+    clip-path: inset(99% 0 0 0 round 20px);
+    z-index: 2;
+}
+
+
+#sobre {
+    position: relative;
+    z-index: 3;
+
+
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+}
+
+/* TÍTULO */
+#sobre h2 {
+    font-size: 6.5vh;
+    margin-bottom: 3vh;
+    text-align: center;
+    color: #ffffff;
+    margin: 10vh auto 10vh auto;
+    
+}
+
+/* PARÁGRAFOS */
+#sobre p {
+    font-size: 2.9vh;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 2.5vh;
+    text-align: justify;
+    margin: 10vh auto 10vh auto;
+    max-width: 110vh;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
 }
