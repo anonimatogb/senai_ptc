@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     overflow-x: hidden;
-    overflow-y: hidden;
+    
 }
 
 header {
@@ -82,7 +82,6 @@ header nav a {
 
 }
 
-/* TÍTULO */
 #sobre h2 {
     font-size: 6.5vh;
     margin-bottom: 3vh;
@@ -92,9 +91,8 @@ header nav a {
     
 }
 
-/* PARÁGRAFOS */
 #sobre p {
-    font-size: 2.9vh;
+    font-size: 2.0vh;
     line-height: 1.6;
     color: #ffffff;
     margin-bottom: 2.5vh;
@@ -103,6 +101,34 @@ header nav a {
     max-width: 110vh;
 }
 
+.local {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 120vh;
+    height: 60vh;
+    padding: 3vh;
+
+    background: rgba(255, 255, 255, 0.726);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.726);
+}
+
+.local iframe {
+   height: 100%;
+    border: none;
+}
+
+.casa{
+    padding: 10vh;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+hr{
+    width: 80vh;
+    justify-self: center;
+}
 footer{
     text-align: center;
     padding: 10px;

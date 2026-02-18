@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>SESI SENAI 2025 - PARAGUAÇU PAULISTA</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+   window.addEventListener("DOMContentLoaded", function () {
+        // Criando um array multidimensional
+        var alunos = [
+          {
+            numero: 1,
+            nome: "Aidan Guert",
+            imagem: "./imagens/alunos/eui.png",
+            link1: "https://github.com/Aidan-G-de-Lima",
+          },
+          {
+            numero: 2,
+            nome: "Amanda",
+            imagem: "./imagens/alunos/amandal.jpg",
+            link1: "https://github.com/amandal28",
+          },
+          {
+            numero: 3,
+            nome: "Ana Laura",
+            imagem: "./imagens/alunos/analaura.jpg",
+            link1: "https://github.com/ana-so25",
+          },
+          {
+            numero: 4,
+            nome: "Ana Livia dos Santos Garcia",
+            imagem: "./imagens/alunos/analivia.jpg",
+            link1: "https://github.com/livia-sgarcia",
+          },
+          {
+            numero: 5,
+            nome: "Ana Luisa Pereira Anselmo",
+            imagem: "./imagens/alunos/Analuisa.jpeg.PNG",
+            link1: "https://github.com/AnaLuisaAnselmo",
+          },
+          {
+            numero: 6,
+            nome: "Arthur",
+            imagem: "./imagens/alunos/arthur.png",
+            link1: "https://github.com/bochioz",
+          },
+          {
+            numero: 7,
+            nome: "Daniel Brito Alves",
+            imagem: "./imagens/alunos/messi.jpeg",
+            link1: "https://github.com/dls990",
+          },
+          {
+            numero: 8,
+            nome: "Dhiogo Antonio",
+            imagem: "./imagens/alunos/dhiogo.jpg",
+            link1: "https://github.com/Dhiogo-Antonio",
+          },
+          {
+            numero: 9,
+            nome: "Eduardo Maciel",
+            imagem: "./imagens/alunos/Eduardo.jpeg.jpeg",
+            link1: "https://github.com/EduardoMaciel305",
+          },
+          {
+            numero: 10,
+            nome: "Esdra",
+            imagem: "./imagens/alunos/batman.jpeg",
+            link1: "https://github.com/Esdra-azideia",
+          },
+          {
+            numero: 11,
+            nome: "Gabriel Machado Cavalcante",
+            imagem: "./imagens/alunos/gabriel.jpeg",
+            link1: "https://github.com/anonimatogb",
+          },
+          {
+            numero: 12,
+            nome: "Guilherme Gomes do Nascimento",
+            imagem: "./imagens/alunos/guilherme.jpg",
+            link1: "https://github.com/guinascimento01",
+          },
+          {
+            numero: 13,
+            nome: "João",
+            imagem: "./imagens/alunos/guto.png",
+            link1: "https://github.com/WPOTC",
+          },
+          {
+            numero: 15,
+            nome: "Karoliny Bianchi da Silva",
+            imagem: "./imagens/alunos/karol.jpg",
+            link1: "https://github.com/karolbianchi",
+          },
+          {
+            numero: 16,
+            nome: "Kayky Ramos da Mata",
+            imagem: "./imagens/alunos/wp1.jpg",
+            link1: "www.github.com",
+          },
+          {
+            numero: 17,
+            nome: "Kayllayne Maria Ribeiro",
+            imagem: "./imagens/alunos/kayllayne.png",
+            link1: "https://github.com/Kah-ribeir",
+          },
+          {
+            numero: 18,
+            nome: "leticia Rodrigues",
+            imagem: "./imagens/alunos/minhafoto.jpg",
+            link1: "https://github.com/Leticiapaulla222",
+          },
+          {
+            numero: 19,
+            nome: "Lucas",
+            imagem: "./imagens/alunos/Lucas.jpg",
+            link1: "https://github.com/Lucas-NLima",
+          },
+          {
+            numero: 20,
+            nome: "manoella",
+            imagem: "./imagens/alunos/manoella.jpg",
+            link1: "https://github.com/manu-csilva",
+          },
+          {
+            numero: 21,
+            nome: "Marya Eduarda Andrade",
+            imagem: "./imagens/alunos/madu.jpg",
+            link1: "https://github.com/marya-gael",
+          },
+          {
+            numero: 22,
+            nome: "maysa",
+            imagem: "./imagens/alunos/maysa.jpg",
+            link1: "https://github.com/May-Camargo",
+          },
+          {
+            numero: 23,
+            nome: "Nathália",
+            imagem: "./imagens/alunos/nathalia.jpeg",
+            link1: "https://github.com/nathaliapiveta",
+          },
+          {
+            numero: 24,
+            nome: "Pedro",
+            imagem: "./imagens/alunos/pfpteste.png",
+            link1: "www.github.com/PedroSENAI2008",
+          },
+          {
+            numero: 25,
+            nome: "Rafael Francisco Silva",
+            imagem: "./imagens/alunos/paiiae.png",
+            link1: "www.github.com/rafasilv-cyber",
+          },
+          {
+            numero: 26,
+            nome: "Sophia Peixinho Machado Garcia",
+            imagem: "./imagens/alunos/sophia.jpg",
+            link1: "https://github.com/sophboo",
+          },
+          {
+            numero: 27,
+            nome: "Zucolin",
+            imagem: "./imagens/alunos/zucolin.jpg",
+            link1: "https://github.com/Zucolin",
+          },
+          {
+            numero: 28,
+            nome: "Vitor Cardoso Lemes",
+            imagem: "./imagens/alunos/Cardoso.jpeg",
+            link1: "https://github.com/Vtr-Cardoso69",
+          },
+          {
+            numero: 29,
+            nome: "Vitor Hugo",
+            imagem: "./imagens/alunos/VitorHugo.jpeg",
+            link1: "https://github.com/VitorSanto-ux",
+          },
+          {
+            numero: 30,
+            nome: "Malvino",
+            imagem: "./imagens/alunos/pucca.jpg",
+            link1: "https://github.com/Malvino222",
+          },
+          {
+            numero: 31,
+            nome: "Maria Eduarda Magalhães ",
+            imagem: "./imagens/alunos/mariaeduarda.jpg",
+            link1: "https://github.com/mariamagalhaaes",
+          },
+          {
+            numero: 32,
+            nome: "Murilo Pelegrin Lorenzzi",
+            imagem: "./imagens/alunos/muriloFoto.jpg",
+            link1: "https://github.com/muPelegrin",
+          }
+        ];
+
+          var professores = [
+          {
+            numero: 33,
+            nome: "Prof. João Vitor Cavalari Spavier",
+            imagem: "./imagens/professores/joao.jpeg",
+            link1: "https://github.com/cavalari0100",
+          },
+          {
+            numero: 34,
+            nome: "Prof. Jônatas F Gonçalves",
+            imagem: "./imagens/professores/jonatasgoncalves.png",
+            link1: "https://jonatasfelipe.github.io/",
+          }
+          
+          
+        ];
+var divAlunos = document.getElementById("alunos");
+  var divProfessores = document.getElementById("professores");
+
+  function gerarCards(lista, elementoHTML) {
+    var html = "";
+
+    lista.forEach((pessoa) => {
+      html += `
+        <section class="boxaluno">
+          <figure>
+            <img src="${pessoa.imagem}">
+          </figure>
+          <h2>${pessoa.nome}</h2>
+          <a href="${pessoa.link1}" target="_blank">
+            <button>Saiba Mais</button>
+          </a>
+        </section>
+      `;
+    });
+
+    elementoHTML.innerHTML = html;
+  }
+
+  gerarCards(alunos, divAlunos);
+ gerarCards(professores, divProfessores);
+
+});
+
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <figure>
+        <img src="./imagens/logo.png" />
+      </figure>
+      <section id="logo">
+        <h1>
+          <span>Curso técnico em</span><br />
+          Desenvolvimento de Sistemas
+        </h1>
+        <p>SESI SENAI PARAGUAÇU PAULISTA - 2025</p>
+      </section>
+      <a href="../view/index.html" class="voltar">Voltar</a>
+    </header>
+<main>
+  <section>
+    <h2>Alunos</h2>
+    <div id="alunos"></div>
+  </section>
+
+ <section id="secProfessores">
+  <h2>Professores</h2>
+  <div id="professores"></div>
+</section>
+
+</main>
+
+
+
+    <footer>
+      <p>SESI SENAI - PARAGUAÇU PAULISTA - 2025</p>
+    </footer>
+  </body>
+</html>
